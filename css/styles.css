@@ -34,21 +34,26 @@ footer {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 400px;
     margin:top: 10px;
     padding: 0;
     text-align: center;
 }
 
 .container {
-    padding: 0 16px;
+    padding:  26px;
+    margin: 25px;
 }
 
 .title {
     color: grey;
     font-size: 18px;
 }
-
+p{
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
 button {
     border: none;
     outline: 0;
