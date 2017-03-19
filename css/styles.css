@@ -31,15 +31,22 @@ footer {
 .important{
   color: blue;
 }
-
-.card {
+/*Add styling to the card in about me section*/
+ .about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin:top: 10px;
-    padding: 0;
+    max-width: 450px;
+    margin:top: 20px;
+    padding: 10px;
     text-align: center;
 }
-
+/*Add styling to the card in about me section*/
+ .paragraph-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    margin:top: 20px;
+    padding: 10px;
+    text-align: center;
+}
 .container {
     padding:  26px;
     margin: 25px;
@@ -52,7 +59,7 @@ footer {
 p{
   font-family: sans-serif;
   font-size: 22px;
-  text-align: left;
+  text-align: center;
 }
 button {
     border: none;
