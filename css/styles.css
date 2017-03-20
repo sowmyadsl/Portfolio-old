@@ -11,14 +11,17 @@ body{
   padding:20px;
   background-color: #80CBC4;
 }
-p{
-  text-align: center;
+p,ul,li{
+  font-family:'Tangerine',sans-serif;
+  font-size: 33px;
+  text-align: left;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
+  padding:10px;
 }
 .navbar-custom {
     background-color:#E57373;
@@ -29,7 +32,8 @@ p{
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
     font-family:'Tangerine',sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+
 }
 
 .navbar-custom .navbar-nav > .active > a {
@@ -43,6 +47,7 @@ p{
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
+  font-family:'Tangerine',sans-serif;
     text-decoration: none;
     background-color: #80CBC4;
 }
