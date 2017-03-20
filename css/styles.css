@@ -5,12 +5,15 @@ body{
 
 }
 
+/*Add styling to jumbotron on index page*/
 .jumbotron{
   font-family:'Tangerine',sans-serif;
   margin: 20px;
   padding:20px;
   background-color: #80CBC4;
 }
+
+/*Add styling to the paragraph and lists*/
 p,ul,li{
   font-family:'Tangerine',sans-serif;
   font-size: 33px;
@@ -23,6 +26,7 @@ p,ul,li{
   border-radius: 0;
   padding:10px;
 }
+/*Add Custom style to the navbar*/
 .navbar-custom {
     background-color:#E57373;
     color:#ffffff;
@@ -78,14 +82,7 @@ footer {
 .important{
   color: blue;
 }
-
-
-
-
-
-
-
-
+/*Add styling to the header about-me*/
 .header-aboutme{
   text-align: center;
 }
