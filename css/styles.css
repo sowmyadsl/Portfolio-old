@@ -1,21 +1,60 @@
+/*Add styling to body of page*/
 body{
-  font-family:'Lato',sans-serif;
+  font-family:'Tangerine',sans-serif;
   background-color: #B2EBF2;
-  z-index: -1;
-
 
 }
+
 .jumbotron{
-  float:right;
-  background-color: inherit;
+  font-family:'Tangerine',sans-serif;
+  margin: 20px;
+  padding:20px;
+  background-color: #80CBC4;
 }
-
-
+p{
+  text-align: center;
+}
 
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
+}
+.navbar-custom {
+    background-color:#E57373;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+    font-family:'Tangerine',sans-serif;
+    font-size: 30px;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+    font-family:'Tangerine',sans-serif;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #80CBC4;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#33aa33;
 }
 
 /*Add styling to all header h1,h2,h3*/
@@ -27,7 +66,9 @@ footer {
   background-color: inherit;
   padding: 25px;
   margin-top:50px;
+
 }
+
 /*Add color to important words*/
 .important{
   color: blue;
